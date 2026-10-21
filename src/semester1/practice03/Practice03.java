@@ -93,7 +93,7 @@ public class Practice03 {
         System.out.println("Гіпотенуза: "+C);
         double perimeter=A+B+C;
         System.out.println("Периметр: "+perimeter);
-        double area=(A+B)/2;
+        double area=A*B/2;
         System.out.println("Площа: "+area);
          */
         //Завдання 8
@@ -139,9 +139,9 @@ public class Practice03 {
         Scanner scanner=new Scanner(System.in);
         System.out.printf("Введіть вік користувача: ");
         int age= scanner.nextInt();
-        if (age>120 && age<0){
+        if (age<0 || age>120){
             System.out.println("Некоректний вік");
-        }else if (age>0&&age<=12){
+        }else if (age>=0&&age<=12){
             System.out.println("Дитина");
         }else if (age>=13&&age<=17){
             System.out.println("Підліток");

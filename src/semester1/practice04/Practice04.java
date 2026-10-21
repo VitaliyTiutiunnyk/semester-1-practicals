@@ -6,7 +6,7 @@ public class Practice04 {
     public static void main(String[] args) {
         //Завдання 1
         /*
-        for (int i=0; i<3;i++){
+        for (int i=0; i<7;i++){
             System.out.println("Java - надійна та кросплатформна мова!");
 
         */
@@ -61,7 +61,7 @@ public class Practice04 {
         System.out.printf("Введіть ширину рамки W(>0): ");
         int a= scanner.nextInt();
         for (int i=1; i<=a; i++ ){
-            System.out.print("W");
+            System.out.print("=");
 
         }
          */
@@ -139,16 +139,21 @@ public class Practice04 {
         /*
         Scanner scanner=new Scanner(System.in);
         System.out.printf("Введіть суму депозиту: ");
+        double money = scanner.nextDouble();
+        System.out.printf("Введіть річний відсоток P: ");
+        double p = scanner.nextDouble();
         int years = 0;
-        double money = scanner.nextInt();
-       double money2=money;
-        while (money < money2 * 2) {
-            double persantage = money * 0.02;
-            money =money+persantage ;
-            years++;
-        }
+        double money2=money;
+        if (p <= 0) {
+            System.out.println("Відсоток має бути додатним");
+        } else {
+            while (money < money2 * 2) {
+                money = money + money * p / 100;
+                years++;
+            }
             System.out.println("Через " + years + " років");
             System.out.println("Сума депозиту збільшиться вдвічі " + money);
+        }
 
          */
         //Завдання 12
@@ -443,7 +448,7 @@ public class Practice04 {
         System.out.printf("Введіть n: ");
         int n= scanner.nextInt();
         int sum=0;
-        for (int i=0;i<=n;i++){
+        for (int i=0;i<n;i++){
             int number = a1 + i * d;
             System.out.print(number + " ");
             sum = sum + number;
