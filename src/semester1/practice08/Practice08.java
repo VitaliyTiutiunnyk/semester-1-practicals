@@ -10,6 +10,14 @@ public class Practice08 {
         Block1.task06();
         Block1.task07();
         Block1.task08();
+        Block2.task09();
+        Block2.task10();
+        Block2.task11();
+        Block2.task12();
+        Block2.task13();
+        Block2.task14();
+        Block2.task15();
+        Block2.task16();
 
     }
 
