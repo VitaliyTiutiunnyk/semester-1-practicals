@@ -1,3 +1,4 @@
+
 package semester1.practice08;
 
 public class Practice08 {
@@ -18,6 +19,15 @@ public class Practice08 {
         Block2.task14();
         Block2.task15();
         Block2.task16();
+        Block3.task17();
+        Block3.task18();
+        Block3.task19();
+        Block3.task20();
+        Block3.task21();
+        Block3.task22();
+        Block3.task23();
+        Block3.task24();
+
 
     }
 
