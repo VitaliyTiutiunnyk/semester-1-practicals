@@ -75,22 +75,29 @@ public class Block2 {
 
     }
 }
-    class Employee{
+    class Employee {
         private String name;
         protected double salary;
-       public Employee(String name, double salary){
-           this.name=name;
-           this.salary=salary;
-       }
-       public String getName(){
-           return name;
-       }
+
+        public Employee(String name, double salary) {
+            this.name = name;
+            this.salary = salary;
+        }
+
+        public String getName() {
+            return name;
+        }
+
         @Override
         public String toString() {
             return "Employee{name='" + name + "', salary=" + salary + "}";
         }
 
-}
+        protected double getSalary() {
+            return salary;
+        }
+    }
+
      class Developer extends Employee{
         private String programmingLanguage;
         Developer(String name, double salary, String programmingLanguage){
