@@ -27,6 +27,14 @@ public class Practice08 {
         Block3.task22();
         Block3.task23();
         Block3.task24();
+        Block4.task25();
+        Block4.task26();
+        Block4.task27();
+        Block4.task28();
+        Block4.task29();
+        Block4.task30();
+        Block4.task31();
+        Block4.task32();
 
 
     }
