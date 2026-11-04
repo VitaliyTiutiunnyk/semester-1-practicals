@@ -10,6 +10,15 @@ public class Practice09 {
         Task06.run();
         Task07.run();
         Task08.run();
+        Task09.run();
+        Task10.run();
+        Task11.run();
+        Task12.run();
+        Task13.run();
+        Task14.run();
+        Task15.run();
+        Task16.run();
+
 
 
 
