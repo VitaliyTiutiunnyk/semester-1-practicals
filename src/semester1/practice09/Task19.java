@@ -1,7 +1,5 @@
 package semester1.practice09;
 
-import semester1.practice07.Book;
-
 public class Task19 {
     public static void run(){
         Bookshelf shelf = new Bookshelf("Фантастика", 5);

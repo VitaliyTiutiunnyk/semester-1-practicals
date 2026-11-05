@@ -34,6 +34,13 @@ public class Practice09 {
         Task30.run();
         Task31.run();
         Task32.run();
+        Task33.run();
+        Task34.run();
+        Task35.run();
+        Task36.run();
+        Task37.run();
+        Task38.run();
+        Task39.run();
 
 
 
