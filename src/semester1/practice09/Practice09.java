@@ -26,6 +26,14 @@ public class Practice09 {
         Task22.run();
         Task23.run();
         Task24.run();
+        Task25.run();
+        Task26.run();
+        Task27.run();
+        Task28.run();
+        Task29.run();
+        Task30.run();
+        Task31.run();
+        Task32.run();
 
 
 
