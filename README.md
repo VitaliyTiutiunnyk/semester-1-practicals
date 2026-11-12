@@ -17,6 +17,8 @@
 * `src/semester1/practice06` — Практична робота №6
 * `src/semester1/practice07` — Практична робота №7
 * `src/semester1/practice08` — Практична робота №8
+* `src/semester1/practice09` — Практична робота №9
+* `src/semester1/practice10` — Практична робота №10
 ---
 
 > *Репозиторій оновлюється в міру виконання нових завдань.*
