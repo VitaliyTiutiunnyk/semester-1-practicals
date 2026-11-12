@@ -1,0 +1,47 @@
+package semester1.practice10;
+
+
+public class Practice10 {
+    public static void main(String[] args){
+        Task01.run();
+        Task02.run();
+        Task03.run();
+        Task04.run();
+        Task05.run();
+        Task06.run();
+        Task07.run();
+        Task08.run();
+        Task09.run();
+        Task10.run();
+        Task11.run();
+        Task12.run();
+        Task13.run();
+        Task14.run();
+        Task15.run();
+        Task16.run();
+        Task17.run();
+        Task18.run();
+        Task19.run();
+        Task20.run();
+        Task21.run();
+        Task22.run();
+        Task23.run();
+        Task24.run();
+        Task25.run();
+        Task26.run();
+        Task27.run();
+        Task28.run();
+        Task29.run();
+        Task30.run();
+        Task31.run();
+        Task32.run();
+        Task33.run();
+        Task34.run();
+        Task35.run();
+        Task36.run();
+        Task37.run();
+        Task38.run();
+        Task39.run();
+
+    }
+}
